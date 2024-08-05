@@ -8,7 +8,7 @@ dotenv.config()   //* Configuring Environment file.
 const app = express();    //* Calling The Express
 app.use(express.json())  //* Convert To JSON File.
 
-app.use('/api/users',userRouter)  //* Calling Router
+app.use('/api/users',userRouter)  //* MiddleWare Router
 
 
 
