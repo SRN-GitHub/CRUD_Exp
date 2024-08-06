@@ -11,3 +11,4 @@ const userSchema = new Schema({
 
 const UserCollection = model('users', userSchema)  // Creating Collection
 export default UserCollection;
+
